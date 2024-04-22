@@ -589,6 +589,19 @@ display: none;
   margin: 00px 0px 0px 0px;
   padding: 60px;
 
+  .firsttt.firstos {
+    text-align: left !important;
+  }
+
+  .flexicons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: center;
+    gap: 40px;
+    
+    }
+
 
 
   .secondos {
@@ -636,6 +649,10 @@ padding: 60px;
 .logo {
   width: 150px;
   margin-bottom: 15px;
+}
+
+.firsttt.firstos {
+  text-align: center;
 }
 
 .firstos {
@@ -1280,11 +1297,9 @@ display: none;
 position: fixed;
 padding: 10px;
 bottom: 10px;
-left: 10px;
-background-color: #225581; /* Adjust background color as needed */
+right: 10px;
 z-index: 999; /* Ensure it stays above other content */
 border-radius: 100px;
-box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
 
 
 i.fas.fa-cookie {
@@ -1321,8 +1336,10 @@ img.google {
 .flexicons {
 margin-top: 25px;
 display: flex;
+justify-content: center;
 align-items: center;
 gap: 40px;
+
 }
 
 i.fab.fa-facebook-f.fbicon {
